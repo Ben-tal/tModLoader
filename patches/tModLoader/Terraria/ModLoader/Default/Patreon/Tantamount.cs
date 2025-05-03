@@ -22,6 +22,7 @@ internal class Tantamount_Head : PatreonItem
 		base.SetStaticDefaults();
 
 		ArmorIDs.Head.Sets.DrawFullHair[Item.headSlot] = true;
+		ArmorIDs.Face.Sets.DrawInFaceFlowerLayer[Item.faceSlot] = true;
 	}
 
 	public override void SetDefaults()
